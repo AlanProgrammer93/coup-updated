@@ -1,0 +1,17 @@
+.attacked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 130px;
+    position: absolute;
+    border: red;
+    background-color: red;
+    z-index: 9999;
+    color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-align: center;
+}

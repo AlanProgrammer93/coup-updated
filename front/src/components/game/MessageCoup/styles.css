@@ -1,0 +1,46 @@
+.coup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 260px;
+    position: absolute;
+    border: red;
+    background-color: red;
+    z-index: 9999;
+    color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coup h3 {
+    font-size: 25px;
+}
+
+.coup p {
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    border: 1px solid white;
+    background-color: white;
+    color: deepskyblue;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

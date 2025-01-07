@@ -1,0 +1,17 @@
+.endGameOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    top: 290px;
+    right: 20px;
+    color: white;
+    position: fixed;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}

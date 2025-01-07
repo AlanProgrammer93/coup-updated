@@ -1,0 +1,265 @@
+/* STYLES START*/
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--color-secondary);
+}
+
+.start .openButton {
+    margin-bottom: 10px;
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 15px;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.start .openButton:hover {
+    transform: scale(1.1);
+}
+
+.start__list {
+    border: 1px solid white;
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.start__list .container_games {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.container__info {
+    display: flex;
+    align-items: center;
+}
+
+.container__info h2 {
+    margin-right: 5px;
+}
+
+.btn_start {
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    padding: 3px 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn_end {
+    border: 1px solid red;
+    background-color: red;
+    padding: 3px 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 850px) {
+    .start__list {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .start__list {
+        width: 80%;
+    }
+}
+
+
+/* EndGameOption */
+.descartOneCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 180px;
+    position: absolute;
+    border: red;
+    background-color: red;
+    z-index: 9999;
+    color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.descartCard{
+    display: flex;
+}
+.descartCard button {
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.descartCard button:hover {
+    transform: scale(1.1);
+}
+
+/* EndGameOption */
+.endGameOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    top: 290px;
+    right: 20px;
+    color: white;
+    position: fixed;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* MessageAttackedGlobal */
+.attackedGlobal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    border: red;
+    background-color: red;
+    z-index: 9999;
+    color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.attackedGlobal button {
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.attackedGlobal button:hover {
+    transform: scale(1.1);
+}
+
+
+/* Main */
+.home__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__main_table {
+    width: 500px;
+    height: 400px;
+    background-color: burlywood;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_mazo {
+    width: 60px;
+    height: 80px;
+    background-color: deepskyblue;
+    margin-left: 15px;
+    border-radius: 15px;
+    border-bottom: 4px solid rgb(70, 141, 165);
+    border-right: 3px solid rgb(70, 141, 165);
+}
+
+.home__main_oponent1 {
+    width: 20%;
+    margin-right: -30px;
+    z-index: 999;
+}
+
+.home__main_oponent2 {
+    width: 20%;
+    margin-left: -30px;
+    z-index: 999;
+}
+
+.home__main_oponent_card {
+    width: 170px;
+    height: 120px;
+    border: 1px solid deepskyblue;
+    margin-bottom: 10px;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+
+.Details_oponent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.money_aponent1 {
+    display: flex;
+}
+
+.Details_oponent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.money_aponent2 {
+    display: flex;
+}
+
+.money {
+    width: 35px;
+    height: 35px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Details_oponent1 h2,
+.Details_oponent2 h2 {
+    color: white;
+}

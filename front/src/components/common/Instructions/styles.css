@@ -1,0 +1,74 @@
+.instruction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    right: 55px;
+    color: white;
+    position: fixed;
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instruction_modal {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction_container {
+    height: 90vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    overflow-y: auto;
+    letter-spacing: 2px;
+}
+
+.instruction_container::-webkit-scrollbar {
+    display: none;
+}
+
+.instruction_container h2 {
+    margin: 10px;
+    padding: 0;
+}
+
+.instruction_container h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.instruction_start_game {
+    display: flex;
+    flex-direction: column;
+}
+
+.instruction_start_game p {
+    margin: 0;
+    padding: 5px;
+}
+
+
+@media (max-width: 700px) {
+    .instruction_container {
+        width: 70vw;
+    }
+}

@@ -1,0 +1,14 @@
+.messageAction {
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 20px;
+    bottom: 30px;
+    position: absolute;
+    width: 360px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    z-index: 9999;
+}

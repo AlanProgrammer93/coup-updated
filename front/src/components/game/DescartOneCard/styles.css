@@ -1,0 +1,36 @@
+.descartOneCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 180px;
+    position: absolute;
+    border: red;
+    background-color: red;
+    z-index: 9999;
+    color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.descartCard {
+    display: flex;
+}
+
+.descartCard button {
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.descartCard button:hover {
+    transform: scale(1.1);
+}

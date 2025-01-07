@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --color-primary: deepskyblue;
+  --color-primary-dark: rgb(8, 151, 199);
+  --color-secondary: #2b2b2b;
+
+  --color-light: rgba(132, 139, 200, 0.18);
+  --box-shadow: 0 1rem 3rem var(--color-light);
+}
+
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* background: var(--color-background); */
+  background: rgba(255, 255, 255, 0.768);
+  bottom: 0;
+  z-index: 9999999999;
+}
