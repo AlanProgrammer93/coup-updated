@@ -11,8 +11,8 @@ import { updateResult } from '../store/resultReducer';
 
 let socket;
 
-const SERVER = 'http://localhost:5000'
-// const SERVER = 'https://coup-server-hls8.onrender.com'
+// const SERVER = 'http://localhost:5000'
+const SERVER = 'https://coup-server-hls8.onrender.com'
 
 
 export const init = (dispatch) => {
@@ -59,12 +59,6 @@ export const init = (dispatch) => {
     });
 
     socket.on('lostCard', () => {
-        /* dispatch(updateVariables(
-            {
-                variable: 'lostCard'
-            }
-        )); */
-
         dispatch(updateVariables({ action: 'lostCard' }));
     });
     

@@ -75,11 +75,6 @@ const GameScreen = () => {
             {
               descart.descart && (<DescartOneCard />)
             }
-
-            {/* 
-            {
-              coup.coup && (<MessageCoup />)
-            } */}
             <div>
               <EndGameOption />
               <Instructions position={'350px'} right="20px" />

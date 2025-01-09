@@ -15,7 +15,6 @@ const Main = () => {
                             <div key={index} className='home__main_oponent_card'></div>
                         ))
                     }
-
                 </div>
 
                 <div className='home__main_table'>

@@ -193,7 +193,6 @@ const Controls = () => {
                             </div>
                         ))
                     }
-
                 </div>
                 <div className='home__controls_bottons'>
                     <button onClick={takeMoney}>Tomar Moneda</button>
@@ -245,7 +244,6 @@ const Controls = () => {
                                                         <button onClick={allow}>Permitir</button>
                                                     </>
                                                 )
-
                                     : (
                                         <>
                                             <button>Tengo el Capitan</button>

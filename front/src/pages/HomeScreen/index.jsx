@@ -11,8 +11,6 @@ const HomeScreen = () => {
 
   const router = useNavigate();
 
-  // const { userId } = useParams();
-
   const { user, games } = useSelector((state) => ({ ...state }));
   const dispatch = useDispatch()
 

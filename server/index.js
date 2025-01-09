@@ -80,7 +80,6 @@ io.on("connection", (socket) => {
             } else {
                 socket.emit("getGame", null)
             }
-
         } catch (error) {
             socket.emit("getGame", null)
         }
@@ -192,7 +191,6 @@ io.on("connection", (socket) => {
         });
 
         socket.to(userAttacked[0].connectionId).emit("attacked", atack)
-
     });
 
     // Functions Cards Global
