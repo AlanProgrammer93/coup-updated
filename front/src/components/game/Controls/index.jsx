@@ -185,7 +185,7 @@ const Controls = () => {
                     {
                         game.game && game.game.myUser.cards.map((card, index) => (
                             <div className='home__controls_card' key={index}>
-                                <img src={`src/assets/cards/${card}.png`} alt="" />
+                                <img src={`/cards/${card}.png`} alt="" />
                                 <div className='detail_card'>
                                     <p>{card}</p>
                                     <span>{data[card]}</span>
