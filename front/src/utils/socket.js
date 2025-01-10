@@ -11,8 +11,7 @@ import { updateResult } from '../store/resultReducer';
 
 let socket;
 
-// const SERVER = 'http://localhost:5000'
-const SERVER = 'https://coup-updated.onrender.com'
+const SERVER = 'http://localhost:5000'
 
 
 export const init = (dispatch) => {
