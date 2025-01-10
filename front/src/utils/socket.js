@@ -12,7 +12,7 @@ import { updateResult } from '../store/resultReducer';
 let socket;
 
 // const SERVER = 'http://localhost:5000'
-const SERVER = 'https://coup-server-hls8.onrender.com'
+const SERVER = 'https://coup-updated.onrender.com'
 
 
 export const init = (dispatch) => {
